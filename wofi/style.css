@@ -1,0 +1,24 @@
+window {
+	font-family: "JetBrainsMono Nerd Font";
+	border: 2px solid #89b4fa;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(137, 180, 250, 0.3);
+}
+
+#input {
+	padding: 7px 10.5px;
+	border: 2px solid #89b4fa;
+	border-radius: 8px;
+}
+
+#outer-box {
+	padding: 10px;
+	border-radius: 8px;
+}
+
+#inner-box {
+	margin-top: 10px;
+	border: 2px solid #89b4fa;
+	border-radius: 8px;
+}
+
