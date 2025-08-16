@@ -11,7 +11,7 @@ This is my Arch Hyprland dev setup — because life’s too short for bloated di
 - `wofi/` - app launcher - yanked from somewhere 
 - `kitty/` - Terminal configs with **nerd fonts** and **transparency that does nothing but looks cool**
 - `alacritty/` - Another terminal. I just love the name **Alacritty**.
-- `nvim/` - lazyvim default setup.
+- `nvim/` - setup by primeagen.
 - `.bashrc` - currently using bashrc, will try zshell too
 - `.tmux.conf` - tmux catppuccin theme for bottom bar 
 - `.vimrc` - sometimes i use this too
@@ -40,4 +40,6 @@ cd ~/.dotfiles
 - Just saw those arch ricers' setup and wanted to try my own. so far so good
 
 ## 📸 Screenshots
-Coming soon... or not. I was lazy to take them. It looks cool though, trust me.
+
+![Screenshot](./scrnshots/screenshot.png)
+
