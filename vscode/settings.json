@@ -1,0 +1,30 @@
+{
+    "workbench.colorTheme": "Rosé Pine Moon",
+    "editor.fontFamily": "'JetBrainsMono Nerd Font', monospace",
+    "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font', monospace",
+    "editor.tabSize": 2,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "editor.lineNumbers": "relative",
+    "breadcrumbs.enabled": false,
+    "workbench.iconTheme": "rose-pine-icons",
+    "background.fullscreen": {
+        "images": ["file:///C:/Users/kyojin22/wp1.jpg"],
+        "opacity": 0.1,
+        "size": "cover",
+        "position": "center",
+        "interval": 0,
+        "random": false
+    },
+    "workbench.panel.showLabels": false,
+    "editor.cursorStyle": "block",
+    "vim.cursorStylePerMode.insert": "block",
+    "vim.cursorStylePerMode.normal": "block",
+    "vim.cursorStylePerMode.visual": "block",
+    "editor.cursorBlinking": "smooth",
+    "workbench.layoutControl.enabled": false,
+    "chat.commandCenter.enabled": false,
+    "window.commandCenter": true,
+    "workbench.navigationControl.enabled": false,
+    "editor.minimap.enabled": false,
+    "workbench.activityBar.location": "hidden"
+}
