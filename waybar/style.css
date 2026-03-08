@@ -63,6 +63,7 @@ window > box {
 #backlight,
 #wireplumber,
 #network,
+#battery,
 #clock {
     padding: 0 8px;
     font-size: 15px;
@@ -101,6 +102,12 @@ window > box {
 }
 
 #network {
+    color: #191724;
+    background: #c4a7e7;
+    border: 1px solid #c4a7e7;
+}
+
+#battery {
     color: #191724;
     background: #c4a7e7;
     border: 1px solid #c4a7e7;
