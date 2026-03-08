@@ -1,58 +1,114 @@
 * {
-	font-family: "JetBrainsMono Nerd Font";
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 13px;
 }
 
 window {
-	background-color: transparent;
+    background-color: rgba(25, 23, 36, 0.50);
 }
 
-#left {
-	margin-top: 8px;
+window > box {
+    margin: 8px 0;
 }
 
-#workspaces {
-	border-radius: 16px;
-}
-
-#workspaces button {
-	color: #7f00ff;
-	font-size: 20px;
-	font-weight: bold;
-
-	padding: 0 12px;
-	margin-left: 4px;
-
-	border: 1px solid #7f00ff;
-	border-radius: 8px;
-	background: #1a1b26;
-}
-
-#workspaces button.active {
-	color: #1a1b26;
-	background: radial-gradient(circle,rgba(127, 0, 255, 1) 0%, rgba(215, 29, 222, 1) 100%);	
-	border: 1px solid #1a1b26;
+#window {
+    color: #e0def4;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 #custom-arch {
-	color: #7f00ff;
-	font-size: 20px;
-
-	padding: 0 12px;
-	background: transparent;
+    color: #9ccfd8;
+    font-size: 20px;
+    padding: 0 12px;
 }
 
-#right {
-	padding: 0 12px;
+#workspaces {
+    background: rgba(15, 14, 22, 0.90);
+    border: 1px solid #26233a;
+    border-radius: 14px;
+    padding: 0 6px;
 }
 
+#workspaces button {
+    color: #9ccfd8;
+    font-size: 15px;
+    padding: 0 6px;
+    margin: 3px 2px;
+    border: none;
+    border-radius: 50%;
+    background: #9ccfd8;
+}
+
+#workspaces button.active {
+    color: #31748f;
+    background: #31748f;
+}
+
+#taskbar button {
+    padding: 0px 4px;
+    margin: 3px;
+    border-radius: 6px;
+    background: rgba(0, 0, 0, 0.4);
+    border: none;
+}
+
+#taskbar button.active {
+    background: #9ccfd8;
+}
+
+#mpris,
+#cpu,
+#memory,
+#backlight,
+#wireplumber,
 #network,
-#battery,
 #clock {
-	color: #1a1b26;
-	padding: 0px 12px;
+    padding: 0 8px;
+    font-size: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+}
 
-	border: 1px solid #7f00ff;
-	border-radius: 8px;
-	background: #7f00ff;
+#mpris {
+    color: #191724;
+    background: #1db954;
+    border: 1px solid #1db954;
+}
+
+#cpu {
+    color: #191724;
+    background: #9ccfd8;
+    border: 1px solid #9ccfd8;
+}
+
+#memory {
+    color: #191724;
+    background: #9ccfd8;
+    border: 1px solid #9ccfd8;
+}
+
+#backlight {
+    color: #191724;
+    background: #c4a7e7;
+    border: 1px solid #c4a7e7;
+}
+
+#wireplumber {
+    color: #191724;
+    background: #c4a7e7;
+    border: 1px solid #c4a7e7;
+}
+
+#network {
+    color: #191724;
+    background: #c4a7e7;
+    border: 1px solid #c4a7e7;
+}
+
+#clock {
+    color: #191724;
+    background: #c4a7e7;
+    border: 1px solid #c4a7e7;
 }
 

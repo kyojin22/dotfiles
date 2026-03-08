@@ -1,52 +1,88 @@
 {
     "layer": "top",
-    "height": 32,
+    "height": 44,
     "spacing": 8,
 
     "modules-left": [
         "custom/arch",
-	"hyprland/workspaces"        
+        "cpu",
+        "memory",
+        "wlr/taskbar"
     ],
 
     "modules-center": [
-        "hyprland/window"
+        "hyprland/workspaces"
     ],
 
     "modules-right": [
+        "mpris",
+        "backlight",
+        "wireplumber",
         "network",
-        "battery",
         "clock"
     ],
 
+    "mpris": {
+        "player": "spotify",
+        "format": "󰓇 {title} — {artist}",
+        "format-paused": "󰏤 {title} — {artist}",
+        "max-length": 40
+    },
+
+    "wlr/taskbar": {
+        "format": "{icon}",
+        "icon-size": 18,
+        "tooltip-format": "{title}",
+        "on-click": "activate",
+        "on-click-middle": "close"
+    },
+
     "custom/arch": {
-	"format": "",
-	"tooltip": false
+        "format": "󰣇",
+        "tooltip": false
     },
 
     "hyprland/workspaces": {
-         "disable-scroll": true,
-         "all-outputs": true,
-         "warp-on-scroll": false,
-         "format": "{name}",
-         "format-icons": {}
+        "disable-scroll": true,
+        "all-outputs": true,
+        "warp-on-scroll": false,
+        "format": "●",
+        "persistent-workspaces": {
+            "*": 5
+        }
     },
 
-    "clock": {
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format-alt": "{:%Y-%m-%d}"
+    "cpu": {
+        "format": "󰻠 {usage}%",
+        "tooltip": false
     },
 
-    "battery": {
-        "format": "{capacity}% ",
+    "memory": {
+        "format": "󰍛 {used:0.1f}G"
+    },
+
+    "backlight": {
+        "format": "{icon} {percent}%",
+        "format-icons": ["󰃚", "󰃛", "󰃜", "󰃝", "󰃞", "󰃟", "󰃠"]
+    },
+
+    "wireplumber": {
+        "format": "{icon} {volume}%",
+        "format-muted": "󰖁 muted",
+        "format-icons": ["󰕿", "󰖀", "󰕾"]
     },
 
     "network": {
-        // "interface": "wlp2*", // (Optional) To force the use of this interface
-        "format-wifi": "{essid} ({signalStrength}%) ",
-        "format-ethernet": "{ipaddr}/{cidr} ",
-        "tooltip-format": "{ifname} via {gwaddr} ",
-        "format-linked": "{ifname} (No IP) ",
-        "format-disconnected": "Disconnected ⚠",
-        "format-alt": "{ifname}: {ipaddr}/{cidr}"
+        "format-wifi": "󰤨 {essid}",
+        "format-ethernet": "󰈀 {ipaddr}",
+        "tooltip-format": "{ifname} via {gwaddr}\nStrength: {signalStrength}%",
+        "format-linked": "󰈀 (No IP)",
+        "format-disconnected": "󰤭 Disconnected"
+    },
+
+    "clock": {
+        "format": "󰥔 {:%H:%M}",
+        "format-alt": "󰃭 {:%Y-%m-%d}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
     }
 }
