@@ -1,0 +1,44 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+    
+    "logo": {
+        "source": "~/.config/fastfetch/loli.png",
+        "type": "kitty-direct",
+        "width": 44,
+        "height": 20,
+        "padding": {
+            "top": 2,
+        }
+    },
+
+  "modules": [
+    "title",
+    "separator",
+    "os",
+    "host",
+    "kernel",
+    "uptime",
+    "packages",
+    "shell",
+    "display",
+    "de",
+    "wm",
+    "wmtheme",
+    "theme",
+    "icons",
+    "font",
+    "cursor",
+    "terminal",
+    "terminalfont",
+    "editor",
+    "cpu",
+    "gpu",
+    "memory",
+    "swap",
+    "disk",
+    "poweradapter",
+    "locale",
+    "break",
+    "colors"
+  ]
+}
