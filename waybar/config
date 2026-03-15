@@ -55,45 +55,45 @@
     },
 
     "cpu": {
-        "format": "󰻠 {usage}%",
+        "format": "󰻠  {usage}%",
         "tooltip": false
     },
 
     "memory": {
-        "format": "󰍛 {used:0.1f}G"
+        "format": "󰍛  {used:0.1f}G"
     },
 
     "backlight": {
-        "format": "{icon} {percent}%",
+        "format": "{icon}  {percent}%",
         "format-icons": ["󰃚", "󰃛", "󰃜", "󰃝", "󰃞", "󰃟", "󰃠"]
     },
 
     "wireplumber": {
-        "format": "{icon} {volume}%",
-        "format-muted": "󰖁 muted",
+        "format": "{icon}  {volume}%",
+        "format-muted": "󰖁  muted",
         "format-icons": ["󰕿", "󰖀", "󰕾"]
     },
 
     "network": {
-        "format-wifi": "󰤨 {essid}",
-        "format-ethernet": "󰈀 {ipaddr}",
+        "format-wifi": "󰤨  {essid}",
+        "format-ethernet": "󰈀  {ipaddr}",
         "tooltip-format": "{ifname} via {gwaddr}\nStrength: {signalStrength}%",
-        "format-linked": "󰈀 (No IP)",
-        "format-disconnected": "󰤭 Disconnected"
+        "format-linked": "󰈀  (No IP)",
+        "format-disconnected": "󰤭  Disconnected"
     },
 
     "battery": {
         "bat": "BAT0",
-        "format": "{icon} {capacity}%",
-        "format-charging": "󰂄 {capacity}%",
-        "format-plugged": "󰚥 {capacity}%",
+        "format": "{icon}  {capacity}%",
+        "format-charging": "󰂄  {capacity}%",
+        "format-plugged": "󰚥  {capacity}%",
         "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
         "tooltip-format": "{time} remaining"
     },
 
     "clock": {
-        "format": "󰥔 {:%H:%M}",
-        "format-alt": "󰃭 {:%Y-%m-%d}",
+        "format": "󰥔  {:%H:%M}",
+        "format-alt": "󰃭  {:%Y-%m-%d}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
     }
 }

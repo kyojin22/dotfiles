@@ -1,6 +1,6 @@
 # My Arch - KDE/Hyprland setup 
 
-This is my Arch KDE/Hyprland dev setup. I love Rose Pine Theme.
+This is my Arch KDE/Hyprland dev setup. I love [Rose Pine Theme](https://rosepinetheme.com/).
 
 Have not configured fully to rose-pine theme, yet.
 
