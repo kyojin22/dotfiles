@@ -64,7 +64,8 @@ window > box {
 #wireplumber,
 #network,
 #battery,
-#clock {
+#clock,
+#custom-power {
     padding: 0 8px;
     font-size: 15px;
     border-radius: 8px;
@@ -95,25 +96,11 @@ window > box {
     border: 1px solid #c4a7e7;
 }
 
-#wireplumber {
-    color: #191724;
-    background: #c4a7e7;
-    border: 1px solid #c4a7e7;
-}
-
-#network {
-    color: #191724;
-    background: #c4a7e7;
-    border: 1px solid #c4a7e7;
-}
-
-#battery {
-    color: #191724;
-    background: #c4a7e7;
-    border: 1px solid #c4a7e7;
-}
-
-#clock {
+#wireplumber,
+#network,
+#battery,
+#clock,
+#custom-power {
     color: #191724;
     background: #c4a7e7;
     border: 1px solid #c4a7e7;

@@ -1,0 +1,15 @@
+configuration {
+    // sidebar-mode: true;
+    modi:           "drun,run,window";
+    show-icons:     true;
+    icon-theme:     "Adwaita";
+    terminal:       "alacritty";
+    drun-display-format: "{name}";
+    hover-select:   false;
+    kb-primary-paste: "ctrl+shift+v";
+    display-drun: "󰍉";
+}
+
+//@theme "/home/bobur/.config/rofi/rose-pine.rasi"
+
+@theme "/usr/share/rofi/themes/gruvbox-dark.rasi"

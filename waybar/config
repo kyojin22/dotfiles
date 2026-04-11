@@ -20,7 +20,8 @@
         "wireplumber",
         "network",
         "battery",
-        "clock"
+        "clock",
+        "custom/power"
     ],
 
     "mpris": {
@@ -95,5 +96,11 @@
         "format": "󰥔  {:%H:%M}",
         "format-alt": "󰃭  {:%Y-%m-%d}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+    },
+
+    "custom/power": {
+        "format": "⏻",
+        "tooltip": false,
+        "on-click": "wlogout &"
     }
 }

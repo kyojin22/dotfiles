@@ -1,0 +1,140 @@
+* {
+    base:           #191724;
+    surface:        #1f1d2e;
+    overlay:        #26233a;
+    muted:          #6e6a86;
+    subtle:         #908caa;
+    text:           #e0def4;
+    love:           #eb6f92;
+    gold:           #f6c177;
+    rose:           #ebbcba;
+    pine:           #31748f;
+    foam:           #9ccfd8;
+    iris:           #c4a7e7;
+    highlight-low:  #21202e;
+    highlight-med:  #403d52;
+    highlight-high: #524f67;
+
+    font:                   "Pier Sans 13";
+    background-color:       transparent;
+    text-color:             @text;
+}
+
+window {
+    fullscreen:         true;
+    background-color:   rgba(25, 23, 36, 0.88);
+    border:             0px;
+    border-radius:      0px;
+    padding:            0;
+}
+
+mainbox {
+    background-color:   transparent;
+    padding:            80px 60px 60px 60px;
+    spacing:            36px;
+    orientation:        vertical;
+    children:           [ inputbar, listview ];
+}
+
+inputbar {
+    background-color:   rgba(31, 29, 46, 0.95);
+    border-radius:      28px;
+    padding:            14px 22px;
+    spacing:            10px;
+    children:           [ prompt, entry ];
+    margin:             0px 35% 0px 35%;
+    border:             1px solid;
+    border-color:       rgba(196, 167, 231, 0.35);
+}
+
+prompt {
+    background-color:   transparent;
+    text-color:         @iris;
+    /* Nerd Font search icon — requires a Nerd Font installed */
+    font:               "JetBrainsMono Nerd Font Bold 18";
+}
+
+entry {
+    background-color:   transparent;
+    text-color:         @text;
+    placeholder:        "";
+    placeholder-color:  @muted;
+    cursor:             text;
+}
+
+listview {
+    background-color:   transparent;
+    padding:            20px 60px;
+    spacing:            4px;
+    columns:            8;
+    lines:              4;
+    scrollbar:          false;
+    layout:             vertical;
+    flow:               horizontal;
+    fixed-height:       false;
+}
+
+element {
+    background-color:   transparent;
+    border-radius:      14px;
+    padding:            18px 10px 14px 10px;
+    spacing:            8px;
+    orientation:        vertical;
+    cursor:             pointer;
+}
+
+element normal.normal {
+    background-color:   transparent;
+    text-color:         @text;
+}
+
+element normal.urgent {
+    background-color:   transparent;
+    text-color:         @love;
+}
+
+element normal.active {
+    background-color:   transparent;
+    text-color:         @pine;
+}
+
+element selected.normal {
+    background-color:   rgba(64, 61, 82, 0.75);
+    text-color:         @iris;
+}
+
+element selected.urgent {
+    background-color:   rgba(64, 61, 82, 0.75);
+    text-color:         @love;
+}
+
+element selected.active {
+    background-color:   rgba(64, 61, 82, 0.75);
+    text-color:         @foam;
+}
+
+element-icon {
+    background-color:   transparent;
+    size:               64px;
+    horizontal-align:   0.5;
+    margin:             0px 0px 8px 0px;
+}
+
+element-text {
+    background-color:   transparent;
+    text-color:         inherit;
+    horizontal-align:   0.5;
+    vertical-align:     0.5;
+    font:               "Pier Sans 11";
+}
+
+message {
+    background-color:   rgba(38, 35, 58, 0.9);
+    border-radius:      8px;
+    padding:            8px 14px;
+}
+
+textbox {
+    background-color:   transparent;
+    text-color:         @subtle;
+}
