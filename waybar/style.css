@@ -45,18 +45,6 @@ window > box {
     background: #31748f;
 }
 
-#taskbar button {
-    padding: 0px 4px;
-    margin: 3px;
-    border-radius: 6px;
-    background: rgba(0, 0, 0, 0.4);
-    border: none;
-}
-
-#taskbar button.active {
-    background: #9ccfd8;
-}
-
 #mpris,
 #cpu,
 #memory,
@@ -78,24 +66,14 @@ window > box {
     border: 1px solid #1db954;
 }
 
-#cpu {
-    color: #191724;
-    background: #9ccfd8;
-    border: 1px solid #9ccfd8;
-}
-
+#cpu,
 #memory {
     color: #191724;
     background: #9ccfd8;
     border: 1px solid #9ccfd8;
 }
 
-#backlight {
-    color: #191724;
-    background: #c4a7e7;
-    border: 1px solid #c4a7e7;
-}
-
+#backlight,
 #wireplumber,
 #network,
 #battery,

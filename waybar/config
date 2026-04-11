@@ -7,7 +7,6 @@
         "custom/arch",
         "cpu",
         "memory",
-        "wlr/taskbar"
     ],
 
     "modules-center": [
@@ -31,16 +30,7 @@
         "max-length": 40
     },
 
-    "wlr/taskbar": {
-        "format": "{icon}",
-        "icon-size": 18,
-        "icon-theme": "hicolor",
-        "tooltip-format": "{title}",
-        "on-click": "activate",
-        "on-click-middle": "close"
-    },
-
-    "custom/arch": {
+   "custom/arch": {
         "format": "󰣇",
         "tooltip": false
     },
