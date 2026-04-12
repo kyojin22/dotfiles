@@ -1,5 +1,4 @@
 configuration {
-    // sidebar-mode: true;
     modi:           "drun,run,window";
     show-icons:     true;
     icon-theme:     "Adwaita";
@@ -10,6 +9,5 @@ configuration {
     display-drun: "󰍉";
 }
 
-//@theme "/home/bobur/.config/rofi/rose-pine.rasi"
+@theme "/usr/share/rofi/themes/gruvbox-dark-soft.rasi"
 
-@theme "/usr/share/rofi/themes/gruvbox-dark.rasi"

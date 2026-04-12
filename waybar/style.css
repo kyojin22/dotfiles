@@ -18,7 +18,7 @@ window > box {
 }
 
 #custom-arch {
-    color: #9ccfd8;
+    color: #c4a7e7;
     font-size: 20px;
     padding: 0 12px;
 }
@@ -31,18 +31,20 @@ window > box {
 }
 
 #workspaces button {
-    color: #9ccfd8;
+    color: #191724;
     font-size: 15px;
-    padding: 0 5px;
+    font-weight: bold;
+    padding: 0 6px;
     margin: 3px 2px;
     border: none;
     border-radius: 50%;
-    background: #9ccfd8;
+    background: #c4a7e7;
 }
 
 #workspaces button.active {
-    color: #31748f;
-    background: #31748f;
+    color: #191724;
+    border-radius: 8px;
+    padding: 0 12px;
 }
 
 #mpris,
@@ -67,12 +69,7 @@ window > box {
 }
 
 #cpu,
-#memory {
-    color: #191724;
-    background: #9ccfd8;
-    border: 1px solid #9ccfd8;
-}
-
+#memory,
 #backlight,
 #wireplumber,
 #network,
