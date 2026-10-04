@@ -8,5 +8,5 @@ else
     WALLPAPER=$(find -L "$WALLPAPER_DIR" -type f \( -name "*.jpg" -o -name "*.png" -o -name "*.jpeg" \) | shuf -n 1)
 fi
 
-swww img "$WALLPAPER" --transition-type wipe --transition-angle 30 --transition-duration 1
+awww img "$WALLPAPER" --transition-type wipe --transition-angle 30 --transition-duration 1
 
